@@ -1,0 +1,21 @@
+{
+    "name": "dhson2/qr-code-generator",
+    "description": "A simple QR code generator package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "App\\QRCodeGenerator\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "endroid/qr-code": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "Do Hung Son",
+            "email": "hungsondo0909@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
