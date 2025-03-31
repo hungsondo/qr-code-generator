@@ -1,5 +1,5 @@
 {
-    "name": "dhson2/qr-code-generator",
+    "name": "hungsondo/qr-code-generator",
     "description": "A simple QR code generator package",
     "type": "library",
     "autoload": {
@@ -14,7 +14,7 @@
     "authors": [
         {
             "name": "Do Hung Son",
-            "email": "hungsondo0909@gmail.com"
+            "email": "hungsondo0903@gmail.com"
         }
     ],
     "minimum-stability": "stable"
