@@ -1,16 +1,12 @@
 <?php
 
-namespace App\QRCodeGenerator;
+namespace HungSonDo\QRCodeGenerator;
 
 use Endroid\QrCode\Builder\Builder;
-use Endroid\QrCode\Color\Color;
 use Endroid\QrCode\Encoding\Encoding;
 use Endroid\QrCode\ErrorCorrectionLevel;
 use Endroid\QrCode\Label\Font\OpenSans;
-use Endroid\QrCode\Label\Label;
 use Endroid\QrCode\Label\LabelAlignment;
-use Endroid\QrCode\Logo\Logo;
-use Endroid\QrCode\QrCode;
 use Endroid\QrCode\RoundBlockSizeMode;
 use Endroid\QrCode\Writer\PngWriter;
 

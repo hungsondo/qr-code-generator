@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit57cd92a0fb619a1315315c2824f8641f
 {
     public static $prefixLengthsPsr4 = array (
+        'H' => 
+        array (
+            'HungSonDo\\QRCodeGenerator\\' => 26,
+        ),
         'E' => 
         array (
             'Endroid\\QrCode\\' => 15,
@@ -19,13 +23,13 @@ class ComposerStaticInit57cd92a0fb619a1315315c2824f8641f
         array (
             'BaconQrCode\\' => 12,
         ),
-        'A' => 
-        array (
-            'App\\QRCodeGenerator\\' => 20,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'HungSonDo\\QRCodeGenerator\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Endroid\\QrCode\\' => 
         array (
             0 => __DIR__ . '/..' . '/endroid/qr-code/src',
@@ -37,10 +41,6 @@ class ComposerStaticInit57cd92a0fb619a1315315c2824f8641f
         'BaconQrCode\\' => 
         array (
             0 => __DIR__ . '/..' . '/bacon/bacon-qr-code/src',
-        ),
-        'App\\QRCodeGenerator\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
